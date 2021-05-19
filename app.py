@@ -21,7 +21,7 @@ def zmija():
 def rezultati():
     if request.method == 'POST':
         r = request.form['reza']
-        return render_template('rezultati.html', username=ime, rezultat=r)
+        return render_template('rezultati.html', username=ime, rezultat=int(r))
 
 if __name__=='__main__':
     app.run(debug=False)
