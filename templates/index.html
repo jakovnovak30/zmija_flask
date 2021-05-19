@@ -1,0 +1,22 @@
+<html> 
+	<head> 
+		<meta charset='utf-8'>
+		<title> Dobrodošli </title>
+		<link rel="stylesheet" href="{{url_for('static',filename= 'css/index.css')}}" />
+	</head>
+
+	<body>
+		<div class="prvi">
+			<h2>Zmija</h2>
+			<div class="drugi">
+				<img src="{{url_for('static',filename= 'images/naslovna_zmija.jpg')}}" align="left"/>
+				<p class="tekst">Dobrodošli ! ! !</p>
+				<form action = "/zmija" method = "POST" align="center">
+					<input type = "text" name = "text" />
+					<input type = "submit"/>
+				</form>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,31 @@
+h2{ 
+	text-align: center;
+	font-size: 36px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: grey;
+}
+
+p.tekst{
+	text-align: center;
+	font-size: 16px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	color: #008013;
+}
+
+img{
+	width:50vw;
+	align: left;
+}
+
+div.prvi{ 
+	border: 5vh outset #008013;
+	background-color: darkblue;
+}
+
+div.drugi{
+	display: block;
+	border: 3vh outset red;
+	background-color: lightblue;
+	text-align: center;
+	height: 67.2vh;
+}
