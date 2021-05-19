@@ -1,3 +1,3 @@
 # zmija_flask
 
-* zmijaa.herokuapp.com
+[Link na stranicu na kojoj možete igrati igricu.](zmijaa.herokuapp.com)
