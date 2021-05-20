@@ -10,11 +10,14 @@
 			<p>{{username}}</p>
 			<p>
 				{% if rezultat > 10 %}
-					{{rezultat}} !!! Pa ti si piton.
+					<p> {{rezultat}} !!! Pa ti si piton. </p>
+					<img src="{{url_for('static', filename='images/piton.jpg')}}" align="center"/>
 				{% elif rezultat < 10 and rezultat > 5 %}
-					{{rezultat}} !!! Pa ti si kobra.
+					<p> {{rezultat}} !!! Pa ti si kobra. </p>
+					<img src="{{url_for('static', filename='images/kobra.jpg')}}" align="center"/>
 				{% else  %}
-					{{rezultat}} !!! Ti si poskok.
+					<p> {{rezultat}} !!! Ti si poskok. </p>
+					<img src="{{url_for('static', filename='images/poskok.jpg')}}" align="center"/>
 				{% endif %}
 			</p>
 		</div>		
